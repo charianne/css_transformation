@@ -1,0 +1,17 @@
+.element{
+    margin: 50px;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: #191970;
+    transform: translateX(100%);
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.element:hover {
+    width: 200px;
+}
